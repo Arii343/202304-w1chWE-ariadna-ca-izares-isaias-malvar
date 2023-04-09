@@ -1,0 +1,38 @@
+@use "../variables/colors";
+@use "../variables/functions";
+@use "../variables/typography";
+
+@media screen and (min-width: 1440px) {
+  .journey-search {
+    position: absolute;
+    width: 1440px;
+    height: 1194px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .journey-form {
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 32px;
+    gap: functions.toRem(100);
+    position: absolute;
+    width: functions.toRem(1205);
+    height: functions.toRem(216);
+    margin-left: functions.toRem(32);
+    margin-right: functions.toRem(203);
+    margin-top: functions.toRem(709);
+    font-family: $primary-font;
+  }
+
+  .journey-form__button {
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 20px;
+    gap: functions.toRem(12);
+    width: functions.toRem(170);
+    height: functions.toRem(216);
+    background: $clr-main-brand;
+    border-radius: 0px 20px 20px 0px;
+  }
+}
