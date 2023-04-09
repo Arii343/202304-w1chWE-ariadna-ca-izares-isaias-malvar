@@ -1,2 +1,9 @@
-@use "components/form";
-@use "components/journey-search";
+@import "components/form";
+@import "components/journey-search";
+@import "variables/functions";
+@import "variables/colors";
+@import "variables/typography";
+@import "components/form";
+@import "components/main";
+@import "globals/globals";
+@import "components/buttons";

@@ -1,0 +1,16 @@
+@use "../variables/colors";
+@use "../variables/functions";
+
+.journey-form__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 20px;
+  gap: functions.toRem(80);
+
+  width: functions.toRem(288);
+  height: functions.toRem(128);
+
+  background: #ff7757;
+  border-radius: 0px 0px 16px 16px;
+}
