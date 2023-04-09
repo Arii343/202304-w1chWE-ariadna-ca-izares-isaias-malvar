@@ -1,0 +1,49 @@
+.journey-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+  width: 288px;
+  height: 595px;
+
+  background: #ffffff;
+  border-radius: 16px;
+
+  .journey-form__field {
+    display: flex;
+    flex-direction: column;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #172432;
+  }
+
+  .journey-form__label {
+    width: 88px;
+    height: 17px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #767e86;
+  }
+
+  .journey-form__input {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #172432;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+}
