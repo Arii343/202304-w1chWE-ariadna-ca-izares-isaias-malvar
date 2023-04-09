@@ -1,9 +1,11 @@
+@use "../variables/functions";
+
 .journey-search {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px 16px 100px;
-  gap: 100px;
+  gap: functions.toRem(100);
   background-image: url("../../images/background.jpg");
   background-size: cover;
   background-position: center;
