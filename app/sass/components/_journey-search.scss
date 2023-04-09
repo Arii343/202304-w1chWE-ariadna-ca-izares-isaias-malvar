@@ -12,6 +12,14 @@
   background-size: cover;
   background-position: center;
 
+  .journey-search__sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: functions.toRem(16);
+    margin-right: functions.toRem(16);
+  }
+
   .journey-search__title {
     color: $clr-secondary;
     font-family: $primary-font;
