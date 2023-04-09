@@ -1,8 +1,9 @@
-@import "components/form";
-@import "components/journey-search";
+@import "globals/globals";
+@import "globals/resets";
 @import "variables/functions";
 @import "variables/colors";
 @import "variables/typography";
 @import "components/form";
-@import "globals/globals";
+@import "components/journey-search";
 @import "components/buttons";
+@import "components/form";
