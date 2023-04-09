@@ -1,4 +1,6 @@
 @use "../variables/functions";
+@use "../variables/typography";
+@use "../variables/colors";
 
 .journey-search {
   display: flex;
@@ -9,4 +11,31 @@
   background-image: url("../../images/background.jpg");
   background-size: cover;
   background-position: center;
+
+  .journey-search__sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: functions.toRem(16);
+    margin-right: functions.toRem(16);
+  }
+
+  .journey-search__title {
+    color: $clr-secondary;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: $font-weight-medium;
+    font-size: functions.toRem(40);
+    line-height: functions.toRem(53);
+  }
+
+  .journey-search__sub-title {
+    color: $clr-secondary;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: $font-weight-regular;
+    font-size: functions.toRem(18);
+    line-height: functions.toRem(21);
+    margin-top: functions.toRem(16);
+  }
 }
